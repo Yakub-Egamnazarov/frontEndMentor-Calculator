@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/icon.svg" type="image/x-icon" />
+
+    <!-- Spartan FONT -->
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <!-- Importing Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calculator__head">
+        <h2 class="heading">calc</h2>
+        <div class="theme-switch">
+          <p>THEME</p>
+          <div class="labels">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+          </div>
+          <div class="three-state-toggle">
+            <input
+              type="radio"
+              class="toggle-btn"
+              name="toggle"
+              id="theme-1"
+              checked
+            />
+            <input type="radio" class="toggle-btn" name="toggle" id="theme-2" />
+            <input type="radio" class="toggle-btn" name="toggle" id="theme-3" />
+          </div>
+        </div>
+      </div>
+      <div data-output class="calculator__display">0</div>
+      <div class="calculator__keypad">
+        <button data-number class="btn__digit">7</button>
+        <button data-number class="btn__digit">8</button>
+        <button data-number class="btn__digit">9</button>
+        <button data-delete class="btn__del">DEL</button>
+        <button data-number class="btn__digit">4</button>
+        <button data-number class="btn__digit">5</button>
+        <button data-number class="btn__digit">6</button>
+        <button data-operation class="btn__operation">+</button>
+        <button data-number class="btn__digit">1</button>
+        <button data-number class="btn__digit">2</button>
+        <button data-number class="btn__digit">3</button>
+        <button data-operation class="btn__operation">-</button>
+        <button data-number class="btn__digit">.</button>
+        <button data-number class="btn__digit">0</button>
+        <button data-operation class="btn__operation">/</button>
+        <button data-operation class="btn__operation">*</button>
+        <button data-reset class="btn__reset">RESET</button>
+        <button data-equal class="btn__equal">=</button>
+      </div>
+    </div>
+  </body>
+</html>
