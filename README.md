@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/Yakub-Egamnazarov/frontEndMentor-Calculator.git)
-- Live Site URL: [Website](https://your-live-site-url.com)
+- Live Site URL: [Website](https://tangerine-hotteok-c3b40d.netlify.app/)
 
 ## My process
 
@@ -47,62 +47,29 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Desktop-first workflow
+- Vanilla JavaScript implemented
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I learned how to switch theme colors easily by JavaScript and CSS custom properties. Improved using HTML semantics. JS classes and objects.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I would implement key typing function. Right now the solution only provides mouse click inputs, however, using the same methods of the calculator object, I could connect the triggering on number key pressed.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [20 Best Toggle Switches](https://alvarotrigo.com/blog/toggle-switch-css/) - There are plenty of examples of the different toggle switches. Alvaro did a great job by collecting nice work in one page.
+- [Dark and Light theme switcher](https://medium.com/@haxzie/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript-zocada-dd0059d72fa2) - Musthad Ahamad created good tutorial about how to easily implement theme switching in website with big css properties.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Building Calculator with JS by WebDev Simplified](https://www.youtube.com/watch?v=j59qQ7YWLxw&ab_channel=WebDevSimplified) - In this channel, it is easily explained how to code a calculator in JS.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Github page - [Yakub ](https://github.com/Yakub-Egamnazarov)
+- Frontend Mentor - [Yakub Egamnazarov](https://www.frontendmentor.io/profile/Yakub-Egamnazarov)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to give credits for the resource makers, that they help to other developers to grow.
