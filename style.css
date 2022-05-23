@@ -170,6 +170,12 @@ p {
   background-color: var(--equal-key-bg);
 }
 
+.three-state-toggle label {
+  width: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
 .three-state-toggle input:checked {
   opacity: 1;
 }
