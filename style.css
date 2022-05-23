@@ -72,6 +72,13 @@ body {
   background-color: var(--body-bg);
 }
 
+h1 {
+  text-align: center;
+  padding-bottom: 1.6rem;
+  font-size: 2.4rem;
+  color: var(--display-text);
+}
+
 p {
   font-size: 1.2rem;
   font-weight: 700;
