@@ -63,6 +63,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Spartan", sans-serif;
+  width: 100%;
 
   display: grid;
   align-content: center;
@@ -90,6 +91,8 @@ p {
   margin-top: 10.4rem;
   max-width: 54rem;
   height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -299,13 +302,9 @@ button:active {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 1.6rem auto;
   width: 90%;
   text-align: center;
-  margin-bottom: 1.6rem;
 }
 
 footer .attribution {
