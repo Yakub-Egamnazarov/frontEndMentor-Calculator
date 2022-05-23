@@ -284,3 +284,23 @@ button:active {
 .btn__equal {
   grid-column: span 2;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+footer .attribution {
+  color: var(--display-text);
+  font-size: 1.2rem;
+}
+
+footer a {
+  cursor: pointer;
+  color: var(--equal-key-bg);
+}
